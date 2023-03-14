@@ -1,0 +1,49 @@
+.item-caption {
+  width: 80%;
+  left: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition:  all 1s  !important;
+  /* display: none; */
+}
+.item
+{
+    overflow: hidden;
+}
+.item:hover .item-caption {
+  bottom: 10%;
+  overflow: visible;
+  
+}
+.item-img{
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+}
+h1
+{
+    font-size: 80px;
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f0609e;
+}
+.lightbox-container{
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.lightbox-item
+{
+    height: 70%;
+    width: 50%;
+    background-image: url(../images/portfolio-1.jpg);
+    background-size: cover;
+}
+.fa-times-circle{
+    right: 10px;
+    top: 10px;
+}
+

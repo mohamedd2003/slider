@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+ 
+<body>
+    <h1 class="text-center fw-bold my-5"> <i class="fa-solid fa-sliders"></i> Slider <i class="fa-solid fa-sliders"></i></h1>
+
+    <div class="container ">
+        <div class="row gy-3">
+            <div class="col-md-4">
+                <div class="item position-relative" id="firstItem">
+                    <img src="images/portfolio-3.jpg" class="w-100" id="firstItem">
+                    <div class=" position-absolute item-caption text-center text-white">
+                        <h3> Item Name </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/portfolio-1.jpg" class="w-100" >
+                    <div class=" position-absolute item-caption text-center text-white">
+                        <h3> Item Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/portfolio-4.jpg" class="w-100" >
+                    <div class=" position-absolute item-caption text-center text-white">
+                        <h3> Item Name </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/portfolio-1.jpg" class="w-100" >
+                    <div class=" position-absolute item-caption text-center text-white">
+                        <h3> Item Name</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/portfolio-3.jpg" class="w-100">
+                    <div class=" position-absolute item-caption text-center text-white">
+                        <h3> Item Name </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item position-relative">
+                    <img src="images/portfolio-4.jpg" class="w-100" >
+                    <div class=" position-absolute item-caption text-center text-white">
+                        <h3> Item Name </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lightbox-container position-fixed d-none " id="lightBox">
+        <div class="lightbox-item d-flex align-items-center justify-content-between position-relative" >
+            <i class="fa fa-2x mx-2 fa-arrow-alt-circle-left" id="prev" ></i>
+            <i class="fa fa-2x mx-2 fa-arrow-alt-circle-right " id="next"></i>
+            <i class=" fa fa-times-circle fa-2x position-absolute " id="close"></i>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
